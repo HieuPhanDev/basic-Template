@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    .banner {
+        height: 700px;
+        background: url("./banner.jpg") no-repeat;
+        background-size: 114%;
+
+        .about-signin {
+            height: 79px;
+            text-align: right;
+
+            .signin {
+                margin-right: 157px;
+                color: #8bc34a;
+                border: 2px solid #8bc34a;
+                border-radius: 21px;
+            }
+
+            .about {
+                color: black;
+            }
+
+            .about,
+            .signin {
+                font-size: 12px;
+                padding: 10px 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-block: 56px;
+                display: inline-block;
+            }
+
+        }
+
+        .logo {
+            background: url("https://harypham97.github.io/template-bootstrap/hapoERP.png") center no-repeat;
+            height: 100px;
+            margin-top: 149px;
+        }
+
+        .icon {
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            margin-top: 75px;
+
+            span {
+                display: block;
+                font-size: 35px;
+                padding-top: 15px;
+            }
+
+            img {
+                padding-left: 17px;
+                width: 52px;
+                height: 52px;
+            }
+
+            .icon2 {
+                margin: 0px 250px;
+            }
+        }
+
+        .text {
+            padding: 45px;
+            text-align: center;
+            font-size: 23px;
+            font-style: italic;
+        }
+
+        .btn {
+            text-align: center;
+
+            button {
+                text-align: center;
+                text-transform: uppercase;
+                color: white;
+                border: 2px solid black;
+                border-radius: 21px;
+                font-size: 19px;
+                background-color: #8bc34a;
+                padding: 5px 12px;
+            }
+        }
+    }
+}

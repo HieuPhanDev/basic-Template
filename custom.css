@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body .banner {
+  height: 700px;
+  background: url("./banner.jpg") no-repeat;
+  background-size: 114%;
+}
+body .banner .about-signin {
+  height: 79px;
+  text-align: right;
+}
+body .banner .about-signin .signin {
+  margin-right: 157px;
+  color: #8bc34a;
+  border: 2px solid #8bc34a;
+  border-radius: 21px;
+}
+body .banner .about-signin .about {
+  color: black;
+}
+body .banner .about-signin .about,
+body .banner .about-signin .signin {
+  font-size: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-block: 56px;
+  display: inline-block;
+}
+body .banner .logo {
+  background: url("https://harypham97.github.io/template-bootstrap/hapoERP.png") center no-repeat;
+  height: 100px;
+  margin-top: 149px;
+}
+body .banner .icon {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+body .banner .icon span {
+  display: block;
+  font-size: 35px;
+  padding-top: 15px;
+}
+body .banner .icon img {
+  padding-left: 17px;
+  width: 52px;
+  height: 52px;
+}
+body .banner .icon .icon2 {
+  margin: 0px 250px;
+}
+body .banner .text {
+  padding: 45px;
+  text-align: center;
+  font-size: 23px;
+  font-style: italic;
+}
+body .banner .btn {
+  text-align: center;
+}
+body .banner .btn button {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid black;
+  border-radius: 21px;
+  font-size: 19px;
+  background-color: #8bc34a;
+  padding: 5px 12px;
+}/*# sourceMappingURL=custom.css.map */
